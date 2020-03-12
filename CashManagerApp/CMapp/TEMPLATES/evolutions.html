@@ -1,0 +1,19 @@
+{% extends 'squelette1.html' %}
+  
+  {% block content %}
+  <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.0.min.js
+      "></script>
+      <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.0.0.min.js
+      "></script> <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.0.0.min.js
+      "></script> <script src="https://cdn.bokeh.org/bokeh/release/bokeh-api-2.0.0.min.js
+      "></script>
+  
+  <div class="container mx-auto">
+    {{ div| safe }}
+    {{ script| safe }}
+</div> 
+  {% endblock content%}
+
+ 
+
+ 

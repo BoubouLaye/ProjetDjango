@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder}\\CashManagerApp/db.sqlite3",
+            "dialect": "SQLite",
+            "name": "faye"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "python.pythonPath": "envprojet\\Scripts\\python.exe"
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/monStyle.css' %}">
+    <title>Document</title>
+</head>
+<body class="bg-light"
+
+<!--Navbar -->
+<nav class="mb-1 navbar  navbar-expand-lg navbar-dark  ">
+    
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/"> <button class="btn btn-dark border-primary"><b> Mon Compte</b></button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/evolution"> <button class="btn btn-dark border-primary "><b> evolution de mes depences</b></button></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item avatar">
+            <a class="nav-link" href="#">Se Déconnecter</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    
+    {% block content %}
+              
+    {% endblock %}
+   
+
+</body>
+</html>
