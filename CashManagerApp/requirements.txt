@@ -4,7 +4,7 @@ bokeh==2.0.0
 Django==3.0.4
 django-bootstrap4==1.1.1
 django-pandas==0.6.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 numpy==1.18.1
 packaging==20.3
